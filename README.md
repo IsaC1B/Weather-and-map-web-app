@@ -1,24 +1,24 @@
 # Weather-and-map-web-app
 
-# Aplicación del Clima con Búsqueda usando API Google Maps
+# Weather Application with Google Maps API Search
 
 ## Descripción del Proyecto
-El objetivo de este proyecto es desarrollar una aplicación web que combine una API del clima y la API de Google Maps. La aplicación permitirá a los usuarios ingresar una ubicación en un input (autocomplete de Google Maps), buscar la ubicación en Google Maps y mostrar el clima actual en esa ubicación.
+The aim of this project is to develop a web application that combines a weather API and the Google Maps API. The application will allow users to enter a location in an input (Google Maps autocomplete), search for the location in Google Maps and display the current weather at that location.
 
-## Especificaciones del Proyecto
+## Project Specifications
 
-### Interacción con APIs
-- **API de Clima**: Utilizar una API de clima para obtener y mostrar el estado del clima actual basado en la ubicación seleccionada por el usuario.
-- **API de Google Maps**: Implementar la API de Google Maps para buscar y mostrar la ubicación ingresada por el usuario.
+### Interaction with APIs
+- Weather API**: Use a weather API to fetch and display the current weather status based on the user's selected location.
+- Google Maps API**: Implement the Google Maps API to fetch and display the location entered by the user.
 
-### Funcionalidad Requerida
-1. **Entrada de Usuario**: Permitir que el usuario ingrese una ubicación en un campo de texto (Autocomplete de Google Maps).
-2. **Búsqueda de Ubicación**: Utilizar la API de Google Maps para buscar y centrar el mapa en la ubicación ingresada.
-3. **Mostrar Clima Actual**: Utilizar la API de clima para obtener y mostrar el clima actual de la ubicación seleccionada.
+### Required Functionality
+1. **User Input**: Allow the user to enter a location in a text field (Google Maps Autocomplete).
+2. **Location Search**: Use the Google Maps API to search and centre the map on the location entered.
+3. **Show Current Weather**: Use the Weather API to get and display the current weather for the selected location.
 
 ## Recursos Adicionales
-- **API de Google Maps**: [Documentación del Autocomplete API de Google Maps](https://developers.google.com/maps/documentation/javascript/place-autocomplete)
-- **API de Clima**: [Documentación de Open Meteo](https://open-meteo.com/en/docs)
+- **Google Maps API**: [Documentación del Autocomplete API de Google Maps](https://developers.google.com/maps/documentation/javascript/place-autocomplete)
+- **Weather API**: [Documentación de Open Meteo](https://open-meteo.com/en/docs)
 
-## Recomendaciones
-- Usar la documentación oficial de Google Maps: [Google Maps Documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete#maps_places_autocomplete-javascript)
+## Recommendations
+- Use the official Google Maps documentation: [Google Maps Documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete#maps_places_autocomplete-javascript)
